@@ -164,12 +164,9 @@ table th{
 
     }
      */
-     .container{
-    
+     .container{    
         display: block ;
         width: 100%;
-       
-
     }
     .add-expense{
         width: 90%;
@@ -177,8 +174,7 @@ table th{
     }
     .add-category{
         width: 90%;
-        margin: auto;
-        /* margin-right: 30px; */
+        margin: auto;       
     }
     .Categories-box{
         border: 2px solid black;
