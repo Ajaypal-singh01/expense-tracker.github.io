@@ -229,6 +229,83 @@ table th{
         border-radius: 10px;
         
     }
+
+     
+}
+
+@media screen and (max-width:400px){
+    /* body
+    {
+        background-color: blue;
+
+    }
+     */
+     .container{    
+        display: block ;
+        width: 100%;
+    }
+    .add-expense{
+        width: 90%;
+        margin: auto;
+    }
+    .add-category{
+        width: 90%;
+        margin: auto;       
+    }
+    .Categories-box{
+        border: 2px solid black;
+        color:black;
+        font-weight: 600;
+        /* background-color: rgb(77 204 204); */
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .Categories{
+        
+        font-family: 'roboto',sans-serif;
+        margin: 5px 10px 5px 10px;
+        /* border-bottom: 2px solid black;
+        padding-bottom: 3px; */
+        font-size: 18px;
+    }
+    #pop-up{
+        margin-top: 10px;
+        display: block;
+       
+    }
+    #expense{
+        display:none;
+        /* background-color: #21edff; */
+        border: 2px solid black;
+        border-radius: 10px;
+        width: 80%;
+        margin: auto;
+        /* margin-left: 30px; */
+       /* width: 300px; */
+    }
+    #category{
+        display: none;
+        
+        position: static;
+        /* position: absolute;
+        right: 1px; */
+    }
+    .category-box{
+    
+        width: 70%;
+        margin: auto;
+        margin-top:10px ;
+        /* margin-right:; */
+        
+        border: 2px solid black;
+        border-radius: 10px;
+        
+    }
+    
      
 }
 
