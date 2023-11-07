@@ -12,7 +12,7 @@ function add_category() {
     document.getElementById("category").style.display = "block";
 }
 
-// delete function for delete one table row
+// delete function for delete one table row 
 function del(ids) {
     // console.log("delete function called");
     // console.log(ids);

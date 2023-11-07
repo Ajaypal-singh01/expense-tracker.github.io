@@ -4,6 +4,10 @@
     box-sizing: border-box;
   
 }
+
+
+
+
 body{
     background-color: #FFFFFF;
     /* background: linear-gradient(#80FFDB, #64DFDF, #48BFE3, #5390D9, #5E60CE); */
@@ -11,6 +15,7 @@ body{
     background-size: cover;
     height: 800px;
 }
+
 .heading{
     display: flex;
    
@@ -21,7 +26,7 @@ body{
 }
 .container{
     
-    display: flex;
+    display: flex ;
     justify-content: space-between;
 }
 .add-expense{
@@ -46,7 +51,7 @@ body{
     
 }
 table{
-    border-spacing: 20px;
+    border-spacing: 15px;
     border: 2px solid black;
     border-radius: 15px;
     
@@ -110,6 +115,7 @@ table th{
     position: absolute;
     right: 1px;
 }
+
 .category-box{
     
     /* background-color: #21edff; */
@@ -150,3 +156,83 @@ table th{
     padding: 5px;
     width: 60%;
 }
+/* for mobile  */
+@media screen and (max-width:650px){
+    /* body
+    {
+        background-color: blue;
+
+    }
+     */
+     .container{
+    
+        display: block ;
+        width: 100%;
+       
+
+    }
+    .add-expense{
+        width: 90%;
+        margin: auto;
+    }
+    .add-category{
+        width: 90%;
+        margin: auto;
+        /* margin-right: 30px; */
+    }
+    .Categories-box{
+        border: 2px solid black;
+        color:black;
+        font-weight: 600;
+        /* background-color: rgb(77 204 204); */
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .Categories{
+        
+        font-family: 'roboto',sans-serif;
+        margin: 5px 10px 5px 10px;
+        /* border-bottom: 2px solid black;
+        padding-bottom: 3px; */
+        font-size: 18px;
+    }
+    #pop-up{
+        margin-top: 10px;
+        display: block;
+       
+    }
+    #expense{
+        display:none;
+        /* background-color: #21edff; */
+        border: 2px solid black;
+        border-radius: 10px;
+        width: 80%;
+        margin: auto;
+        /* margin-left: 30px; */
+       /* width: 300px; */
+    }
+    #category{
+        display: none;
+        
+        position: static;
+        /* position: absolute;
+        right: 1px; */
+    }
+    .category-box{
+    
+        width: 70%;
+        margin: auto;
+        margin-top:10px ;
+        /* margin-right:; */
+        
+        border: 2px solid black;
+        border-radius: 10px;
+        
+    }
+     
+}
+
